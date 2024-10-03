@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HexagonMapComponent } from './components/hexagon-map/hexagon-map.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HexagonMapComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
